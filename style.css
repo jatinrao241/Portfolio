@@ -1,0 +1,437 @@
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-track{
+    background:none;
+}
+::-webkit-scrollbar-thumb{
+    background:#FD4766;
+}
+.background-image{
+    background-image:url(\images/selfimage.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.fa-stream{
+    color:gray;
+}
+.navstyle .active{
+    color:white;
+    border-bottom:2px solid #FD4766;
+}
+.nav-item{
+    padding:0px 10px 0px 10px;
+}
+.nav-link{
+    color:wheat;
+    font-size:18px;
+}
+.nav-link:hover{
+    color:white;
+    border-bottom:2px solid #FD4766;
+}
+.hire-me{
+    color:wheat;
+    font-size:18px;
+    letter-spacing:2px;
+    border:2px solid wheat;
+    border-radius:20px;
+    padding:5px 13px 5px 13px;
+}
+.hire-me:hover{
+    color:white;
+    text-decoration:none;
+    background-color:#FD4766;
+    border:2px solid #FD4766;
+}
+
+
+/* Header Scroll Class Only Js */
+.header.scrolled{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:#040608;
+    box-shadow:1px 1px 15px rgb(56, 56, 56);
+}
+/* header scroll class  Js end */
+
+
+/* home-section */
+.welcome-world{
+    padding:300px 0px 300px 0px;
+}
+.welcome-world h5{
+    color:wheat;
+}
+.welcome-world h1{
+    color:white;
+    font-size:54px;
+}
+.welcome-world .js-developer{
+    color:#FD4766;
+}
+.download-CV{
+    color:wheat;
+    font-size:16px;
+    letter-spacing:2px;
+    border:2px solid wheat;
+    border-radius:20px;
+    padding:5px 13px 5px 13px;
+}
+.download-CV:hover{
+    color:white;
+    background-color:#FD4766;
+    border: 2px solid #FD4766;
+    text-decoration: none;
+}
+
+/* About-section */
+
+.about-section{
+    background-color: #060a0e;
+    padding:80px 0px 10px 0px;
+}
+.aboutimage{
+    border-radius: 15px;
+}
+.subtitle{
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    background-image:linear-gradient(225deg,  #FD4766,#a03446,#0d466e, #103753);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-section h1{
+    color:white;
+    padding:15px 0px;
+}
+.about-section p{
+    color:rgba(245, 245, 245, 0.863);
+}
+.tabs{
+    border: 2px solid wheat;
+    border-radius:30px;
+}
+.tabs .nav-item{
+    padding: 0px;
+}
+.tabs .nav-item .nav-link{
+    background-color: #060a0e;
+    color:#a03446;
+    border:none;
+    border-radius:30px;    
+}
+.tabs .nav-item .nav-link:hover{
+    color:white;
+    background-color:#a03446;
+    border:none;
+    border-radius:60px;
+}
+.single-progress h6{
+    color: gray;
+}
+.single-progress .progress{
+    height:4px;
+    border-radius:4px;
+    background-color:whitesmoke;
+    overflow: visible;
+}
+.single-progress .progress-bar{
+    background-image: linear-gradient(45deg,  #FD4766,#a03446,#0d466e, #103753);
+}
+.single-progress .label{
+    position:absolute;
+    right: 40px;
+    color: gray;
+}
+#interests ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+.fa-hand-point-right{
+    font-size: 23px;
+    color: #a03446;
+    padding-right:13px;
+}
+#interests a{
+    color: wheat;
+    font-size: 18px;
+} 
+#interests a:hover{
+    text-decoration: none;
+}
+#projects ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+#projects a{
+    color: wheat;
+    font-size: 18px;
+}
+#projects a:hover{
+    text-decoration: none;
+}
+.github-username{
+    padding-left:36px;
+    font-style: italic;
+    font-size: 17px;
+}
+#education ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+.fa-graduation-cap{
+    font-size: 23px;
+    color: #a03446;
+    padding-right:13px;
+}
+#education a{
+    color: wheat;
+    font-size: 18px;
+}
+#education a:hover{
+    text-decoration: none;
+}
+
+/* Service-section */
+.service-section{
+    background-color: #060a0e;
+    padding-top:80px;
+}
+.service-section h1{
+    color:white;
+    padding:13px 0px;
+    font-weight: 700;
+    word-spacing:3px;
+    letter-spacing:1px;
+}
+.service-section p{
+    color:rgba(245, 245, 245, 0.863);
+    word-spacing:2px;
+}
+.service-section .card{
+    background-color: #040608;
+    cursor: pointer;
+    transition:transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+    box-shadow:0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+}
+.service-section .card:hover{
+    box-shadow:0px 2px 70px 0 rgb(253 71 102 / 5%);
+    transform:translateY(-5px);
+}
+.service-section .card h3{
+    color:white;
+}
+.service-section .card p{
+    color:rgba(245, 245, 245, 0.562);
+}
+
+/* portfolio-section */
+.portfolio-section{
+    background-color: #060a0e;
+    padding-top:80px;
+}
+.portfolio-section h1{
+    color:white;
+    padding:13px 0px;
+    font-weight: 700;
+    word-spacing:3px;
+    letter-spacing:1px;
+}
+.portfolio-section p{
+    color:rgba(245, 245, 245, 0.863);
+    word-spacing:2px;
+}
+.portfolio-section .card{
+    height:100%;
+    min-height:350px;
+    overflow: hidden;
+    cursor: pointer;
+    border:1px solid white;
+}
+.portfolio-section .card span{
+    transition:background-position 4s ease-in-out 0s;
+    width:100%;
+    height:100%;
+    background-position:top center;
+    background-size:cover;
+}
+.portfolio-section .card:hover span{
+    background-position:bottom center;
+}
+
+/* contact-section */
+.contact-section{
+    background-color: #060a0e;
+    padding-top:80px;
+    padding-bottom:40px;
+}
+.submit-button{
+    color:gray;
+    font-size:17px;
+    letter-spacing:1px;
+    background-color:#060a0e;
+    border:2px solid gray;
+    border-radius:20px;
+    padding:5px 13px 5px 13px;
+}
+.submit-button:hover{
+    color:white;
+    text-decoration:none;
+    background-color:#FD4766;
+    border:2px solid #FD4766;
+}
+.contact-section img{
+    border-radius:15px;
+}
+.contact-section h1{
+    color:white;
+    padding:15px 0px;
+}
+.contact-section .call-details{
+    color:gray;
+}
+.contact-section .call-details a{
+    font-weight:700;
+    color:rgb(167, 165, 165);
+}
+.contact-section .call-details a:hover{
+    text-decoration:none;
+}
+.contact-section input,
+.contact-section textarea{
+    background-color: transparent;
+    border:2px solid gray;
+    color:gray;
+    font-size: 15px;
+    font-weight: 400;
+    padding:10px 20px;
+}
+.contact-section input:hover,
+.contact-section textarea:hover,
+.contact-section input:focus,
+.contact-section textarea:focus{
+    color:white;
+    background-color: transparent;
+    border:2px solid transparent;
+    border-image:linear-gradient(45deg,  #FD4766,#a03446,#0d466e, #103753);
+    border-image-slice:1;
+    box-shadow:none;
+}
+
+/* footer-section */
+.footer-section{
+    background-color:#040608;
+}
+.footer-section .footer-logo img{
+    width: 100px;
+}
+.footer-section .social-icon li{
+    margin:9px;
+}
+.footer-section .social-icon a{
+    font-size:15px;
+    color:gray;
+    border:2px solid gray;
+    border-radius:100%;
+    padding:5px 8px;
+}
+.footer-section .social-icon a:hover{
+    background-color:#FD4766;
+    color:wheat;
+    border:2px solid #FD4766;
+    transition:all 0.3s ease-in;
+}
+.footer-section .copyright-text p{
+    color:gray;
+}
+.footer-section .copyright-text a{
+    background-image:linear-gradient(225deg,  #FD4766,#a03446,#0d466e, #103753);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:700;
+}
+
+
+
+
+@media (max-width:1200px){
+    .header-scrolled{
+        height:auto;
+    }
+    .welcome-world{
+        padding:250px 0px 250px 0px;
+    }
+}
+@media (max-width:991px){
+    .nav-item{
+        padding:0px 3px 0px 3px;
+    }
+    .welcome-world{
+        padding:200px 0px 200px 0px;
+    }
+}
+@media (max-width:846px){
+    .nav-item{
+        padding:0px;
+    }
+    .nav-link{
+        font-size:16px;
+    }
+    .hire-me{
+        font-size:16px;
+    }
+}
+@media (max-width:767px){
+    .nav-item{
+        padding-top:3px;
+        padding-bottom:15px;
+    }
+    .navstyle .menu-navbar-nav{
+        text-align:center;
+        background-color:black;
+    }
+    .welcome-world{
+        padding:160px 0px 140px 0px;
+    }
+    .portfolio-section .card{
+        min-height:400px;
+    }
+}
+@media (max-width:543px){
+    .welcome-world{
+        padding:120px 0px 80px 0px;
+    }
+    .welcome-world h1{
+        font-size:50px;
+    }
+    .tabs .nav-item .nav-link{
+        font-size:14px;
+        padding-left: 8px; 
+        padding-right: 8px;   
+    }
+    .portfolio-section .card{
+        min-height:360px;
+    }
+}
+@media (max-width:350px){
+    .welcome-world{
+        padding:70px 0px 40px 0px;
+    }
+    .welcome-world h1{
+        font-size:45px;
+    }
+    .tabs .nav-item .nav-link{
+        font-size:12px;
+        padding-left: 6px; 
+        padding-right: 6px;   
+    }
+    .portfolio-section .card{
+        min-height:300px;
+    }
+}
