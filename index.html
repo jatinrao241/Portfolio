@@ -19,52 +19,54 @@
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="75">
         <!-- navbar and home section -->
-        <div class="background-image">
-            <!-- navbar -->
-            <div class="container-fluid fixed-top px-0">
-                <nav class="navbar navbar-expand-md navstyle px-sm-5 header">
-                    <img src="images/logo.png" alt="logo.png" height="auto" width="130px" class="ml-md-5">
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="fa fa-stream"></span>
-                    </button>
-                    <div class="collapse navbar-collapse mr-md-5" id="myNavbar">
-                        <ul class="navbar-nav menu-navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a href="#home" class="nav-link js-scroll-trigger active">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#about" class="nav-link js-scroll-trigger">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#service" class="nav-link js-scroll-trigger">Service</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#portfolio" class="nav-link js-scroll-trigger">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#contact" class="nav-link js-scroll-trigger">Contact</a>
-                            </li>
-                            <li class="nav-item mt-2">
-                                <a href="#contact" class="hire-me js-scroll-trigger">Hire me</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-
-            <!-- Home -->
-            <div id="home" class="container welcome-world">
-                <div class="row">
-                    <div class="col-sm-12 text-center text-md-left">
-                        <h5>Welcome to my world</h5>
-                        <h1>I'm Jatin</h1>
-                        <h1 class="js-developer">Web Developer.</h1>
-                        <h1 class="pb-4">based in India.</h1>
-                        <a href="images/JATIN's Resume.pdf" class="download-CV">Download CV</a>
+        <section class="navbar-home-section">
+            <div class="background-image">
+                <!-- navbar -->
+                <div class="container-fluid fixed-top px-0">
+                    <nav class="navbar navbar-expand-md navstyle px-sm-5 header">
+                        <img src="images/logo.png" alt="logo.png" height="auto" width="130px" class="ml-md-5">
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="fa fa-stream"></span>
+                        </button>
+                        <div class="collapse navbar-collapse mr-md-5" id="myNavbar">
+                            <ul class="navbar-nav menu-navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link js-scroll-trigger active">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link js-scroll-trigger">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#service" class="nav-link js-scroll-trigger">Service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio" class="nav-link js-scroll-trigger">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contact" class="nav-link js-scroll-trigger">Contact</a>
+                                </li>
+                                <li class="nav-item mt-2">
+                                    <a href="#contact" class="hire-me js-scroll-trigger">Hire me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+    
+                <!-- Home -->
+                <div id="home" class="container welcome-world">
+                    <div class="row">
+                        <div class="col-sm-12 text-center text-md-left">
+                            <h5>Welcome to my world</h5>
+                            <h1>I'm Jatin</h1>
+                            <h1 class="js-developer">Web Developer.</h1>
+                            <h1 class="pb-4">based in India.</h1>
+                            <a href="images/JATIN's Resume.pdf" class="download-CV">Download CV</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- about section -->
         <section id="about" class="about-section">
@@ -81,8 +83,12 @@
                         </div>
                         <div class="pt-4">
                             <ul class="nav tabs justify-content-between justify-content-center" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#skills">Main Skills</a>
+                                <li class="nav-item dropdown">
+                                    <button class="nav-link">Skills</button>
+                                    <div class="dropdown-content">
+                                        <a href="#coding-skills" data-toggle="tab">Coding Skills</a>
+                                        <a href="#main-skills" data-toggle="tab">Main Skills</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#interests">Interests</a>
@@ -97,8 +103,46 @@
                             
                             <!-- Tab panes -->
                             <div class="tab-content">
-                                <!-- skills -->
-                                <div id="skills" class="container tab-pane active"><br>
+                                <!-- coding skills -->
+                                <div id="coding-skills" class="container tab-pane active"><br>
+                                    <div class="single-progress">
+                                        <h6>HTML<p class="label d-inline">100%</p></h6>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width:100%"></div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="single-progress">
+                                        <h6>CSS<p class="label d-inline">90%</p></h6>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width:90%"></div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="single-progress">
+                                        <h6>Bootstrap<p class="label d-inline">95%</p></h6>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width:95%"></div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="single-progress">
+                                        <h6>Javascript<p class="label d-inline">70%</p></h6>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width:70%"></div>
+                                        </div>                                        
+                                    </div>
+                                    <br>
+                                    <div class="single-progress">
+                                        <h6>React JS<p class="label d-inline">80%</p></h6>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width:80%"></div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+
+                                <!-- main skills -->
+                                <div id="main-skills" class="container tab-pane fade"><br>
                                     <div class="single-progress">
                                         <h6>Designing<p class="label d-inline">95%</p></h6>
                                         <div class="progress">
